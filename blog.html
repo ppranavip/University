@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="imgs/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs for 2022</h1> 
+    </section>
+    <!-- Blog Page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="https://res.cloudinary.com/pranavi/image/upload/v1668943986/certificate_oiqi23.jpg" alt="">
+        <h2>Our Certificates & Online Programs for 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perspiciatis nam, necessitatibus ratione repellat ut nulla saepe numquam sit corrupti soluta iste doloremque ipsam cum quae iure quis vero minus blanditiis aspernatur nihil in dolorum alias. Vitae, officia eius sit a sequi est dolore soluta dolorum excepturi cum minima perferendis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, similique rem repudiandae itaque nihil id omnis, sint aperiam quaerat earum vero minima voluptatem voluptates! Mollitia, suscipit nihil impedit sequi omnis at sapiente commodi qui quod ipsam id culpa soluta placeat est molestias maxime ratione? Nulla earum sequi velit cum possimus.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis ipsa? Non, nobis? Deserunt sapiente quo voluptates illo molestiae commodi accusamus debitis ut quae unde aperiam perferendis sint suscipit rem, iure omnis libero fugit maiores asperiores ducimus tenetur minus fuga doloremque quos! Tempore hic at totam numquam a. Beatae, sequi!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis ratione architecto minima possimus explicabo nobis voluptas fuga ab dolorum provident, quia quidem? Omnis rem praesentium vero explicabo magnam quod tempore quibusdam iusto deleniti, possimus culpa quas eaque. Cumque nihil voluptatibus, facilis repellendus consectetur quod id excepturi sequi quae maxime omnis.</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form" action="https://formspree.io/f/xbjbbgaw" method="POST">
+                        <input type="text" name="name" placeholder="Enter Name">
+                        <input type="email" name="email" placeholder="Enter Email">
+                        <textarea rows="5" name="message" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Anlytics</span>
+                    <span>22</span>
+                </div><div>
+                    <span>Data Sceience</span>
+                    <span>40</span>
+                </div><div>
+                    <span>Machine Learning</span>
+                    <span>25</span>
+                </div><div>
+                    <span>Computer Sceience</span>
+                    <span>60</span>
+                </div><div>
+                    <span>AutoCAD</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolorum fugiat, sequi itaque veniam praesentium nostrum eius <br>quod officia quis reprehenderit laudantium exercitationem error, soluta magni fuga, non aliquam assumenda.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>Made by Pabbisetty Pranavi</p>
+    </div>
+
+
+
+</section>
+<!--------------------------- JavaScript --------------------------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0px";
+        }
+        function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+    </script>
+</body>
+</html>
